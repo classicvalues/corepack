@@ -138,7 +138,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["convert-source-map", "npm:1.7.0"],
             ["debug", "virtual:5dffae5dceca8d383e37ce1404983ff3eaf566153fb551aede58a16b625356caee63d9240a4386c2b8b44a2ff32b72c5d4444045ea31775b520ccbc9788f7985#npm:4.1.1"],
             ["gensync", "npm:1.0.0-beta.1"],
-            ["json5", "npm:2.1.2"],
+            ["json5", "npm:2.1.3"],
             ["lodash", "npm:4.17.15"],
             ["resolve", "patch:resolve@npm%3A1.15.1#~builtin<compat/resolve>::version=1.15.1&hash=00b1ff"],
             ["semver", "npm:5.7.1"],
@@ -5678,19 +5678,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["json5", [
-        ["npm:1.0.1", {
-          "packageLocation": "./.yarn/cache/json5-npm-1.0.1-647fc8794b-e76ea23dbb.zip/node_modules/json5/",
+        ["npm:1.0.2", {
+          "packageLocation": "./.yarn/cache/json5-npm-1.0.2-9607f93e30-866458a8c5.zip/node_modules/json5/",
           "packageDependencies": [
-            ["json5", "npm:1.0.1"],
+            ["json5", "npm:1.0.2"],
             ["minimist", "npm:1.2.4"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["npm:2.1.2", {
-          "packageLocation": "./.yarn/cache/json5-npm-2.1.2-391efa21e4-57b4ac6278.zip/node_modules/json5/",
-          "packageDependencies": [
-            ["json5", "npm:2.1.2"],
-            ["minimist", "npm:1.2.5"]
           ],
           "linkType": "HARD",
         }],
@@ -5821,7 +5813,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loader-utils", "npm:1.2.3"],
             ["big.js", "npm:5.2.2"],
             ["emojis-list", "npm:2.1.0"],
-            ["json5", "npm:1.0.1"]
+            ["json5", "npm:1.0.2"]
           ],
           "linkType": "HARD",
         }],
@@ -5831,7 +5823,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loader-utils", "npm:1.4.0"],
             ["big.js", "npm:5.2.2"],
             ["emojis-list", "npm:3.0.0"],
-            ["json5", "npm:1.0.1"]
+            ["json5", "npm:1.0.2"]
           ],
           "linkType": "HARD",
         }]
